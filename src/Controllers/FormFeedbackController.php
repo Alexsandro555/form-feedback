@@ -6,7 +6,7 @@
  * Time: 17:02
  */
 
-namespace App\Http\Controllers;
+namespace Leader\FormFeedback\Controllers;
 use Illuminate\Http\Request;
 use Leader\FormFeedback\Models\Order;
 use Illuminate\Support\Facades\Session;
