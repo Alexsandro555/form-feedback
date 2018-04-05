@@ -1,6 +1,6 @@
 {
     "name": "leader/form-feedback",
-    "license": "proprietary",
+    "license": "MIT",
     "version": "1.0.0",
     "authors": [
         {
@@ -8,6 +8,7 @@
             "email": "alexsandro@oooleader.ru"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
