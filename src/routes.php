@@ -1,11 +1,11 @@
 <?php
 
-Route::group(['middleware' => ['web']], function () {
+Route::group(['middleware' => ['web'], 'namespace' =>'Leader\FormFeedback\Controllers'], function () {
   ////////////////////////////////Form-feedback///////////////////////////////////////////////////////
-  Route::get('/getUID', ['uses' => 'Leader\FormFeedback\FormFeedbackController@getUID', 'as' => 'getUID']);
+  Route::get('/getUID', ['uses' => 'Leader\FormFeedback\Controllers\FormFeedbackController@getUID', 'as' => 'getUID']);
   Route::post('/form-feedback/save', [
     'before' => 'csrf',
-    'uses' => 'Leader\FormFeedback\FormFeedbackController@save',
+    'uses' => 'Leader\FormFeedback\Controllers\FormFeedbackController@save',
     'as' => 'form-feedback-save'
   ]);
 });

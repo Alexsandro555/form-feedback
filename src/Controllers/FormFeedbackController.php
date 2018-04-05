@@ -10,6 +10,7 @@ namespace Leader\FormFeedback\Controllers;
 use Illuminate\Http\Request;
 use Leader\FormFeedback\Models\Order;
 use Illuminate\Support\Facades\Session;
+use App\Http\Controllers\Controller;
 
 class FormFeedbackController extends Controller
 {
