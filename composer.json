@@ -8,7 +8,7 @@
             "email": "alexsandro@oooleader.ru"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
