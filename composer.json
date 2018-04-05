@@ -1,0 +1,17 @@
+{
+    "name": "leader/form-feedback",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "alexsandro",
+            "email": "alexsandro@oooleader.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Leader\\FormFeedback\\": "src"
+        }
+    }
+}
